@@ -18,6 +18,10 @@ spring:
     username: root
     password: dbpass
     initialize: false
+  jpa:
+	properties:
+	  hibernate:
+		dialect: org.hibernate.dialect.MySQL5Dialect
 security:
   oauth2:
     resource:
